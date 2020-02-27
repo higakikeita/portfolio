@@ -435,15 +435,23 @@ li {
   width: 150px;
   margin: 0 auto;
 }
-#contact .output-list ul{
+#contact .output-list ul {
   display: flex;
-  align-items: flex-end;
-  flex-wrap: wrap;
+  
+  flex-wrap: nowrap;
   justify-content: space-between;
-  width: 150px;
+  width: 200px;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
-
+#contact .output-list li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  height: 80px;
+  width: 100px;
+}
 #contact .contact-list li {
   display: flex;
   align-items: center;
@@ -454,7 +462,7 @@ li {
   color: #333;
 }
 #contact .output-list li img{
-  width: 100px;
+  width: 200px;
 }
 #contact .contact-list li img {
   width: 50px;
